@@ -5,7 +5,7 @@
   }
   
   body {
-    background-image: url(img123.jpg);
+    background:url('');
     color: #222;
     font-size: 1rem;
     display: flex;
