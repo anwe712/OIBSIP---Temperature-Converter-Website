@@ -18,7 +18,7 @@
     height: 100vh;
   }
   .title {
-    color: #010042;
+    color: #000000;
     font-size: 2.5rem;
     text-align: center;
   }
@@ -39,7 +39,7 @@
     margin: 50px 0;
   }
   .result-heading {
-    color: #00255e;
+    color: #000000;
     font-size: 1.5rem;
     font-weight: 600;
   }
@@ -48,7 +48,7 @@
     padding: 10px;
   }
   label {
-    color: #000e3b;
+    color: #000000;
     font-size: 1.5rem;
     margin-bottom: 5px;
   }
@@ -57,7 +57,7 @@
     background: transparent;
     border: none;
     outline: none;
-    border-bottom: 2px solid #ccc;
+    border-bottom: 2px solid #000000;
     padding: 8px;
     margin-bottom: 15px;
   }
@@ -76,12 +76,12 @@
     width: 46%;
   }
   option {
-    background-color: #02005c;
+    background-color: #020120;
     color: #f6f6f6;
   }
   #convert-btn {
-    background: linear-gradient(to bottom, #3633f3, #120fb9);
-    border: none;
+    background: black;
+    border: 2px solid black;
     outline: none;
     border-radius: 5px;
     color: #f6f6f6;
@@ -91,10 +91,10 @@
     text-transform: uppercase;
     margin-top: 10px;
     padding: 12px 80px;
-    transition: all 0.3s ease-in;
+    transition: all 0.2s ;
   }
   #convert-btn:hover {
-    background: linear-gradient(to bottom, #4a47e7, #322fda);
+    background: rgb(0, 156, 184);
   }
 .container {
   position: relative;
